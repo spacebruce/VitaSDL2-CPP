@@ -1,5 +1,5 @@
 #include <psp2/kernel/processmgr.h>
-#include "core/game/game-module.h"
+#include <SDL2/SDL.h>
 
 //Screen dimension constants
 enum {
@@ -15,8 +15,6 @@ SDL_Rect fillRect = { SCREEN_WIDTH  / 4,
 		      SCREEN_WIDTH  / 2, 
 		      SCREEN_HEIGHT / 2 
 };
-
-
 
 int main(int argc, char *argv[]) 
 {
